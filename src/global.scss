@@ -24,3 +24,66 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+.rojo, .rojo .sc-ion-action-sheet-md{
+    color:red !important;    
+}
+
+ion-item{
+    --background: transparent;
+}
+ion-searchbar{
+    --box-shadow: none !important
+}
+.fondoblanco{
+
+    --ion-background-color: rgb(255, 255, 255);
+
+}
+
+.negro{
+    color:black !important;    
+
+}
+
+
+
+.amarillo, .cartamarilla{
+    --background:#FAFA86 !important;
+    color:#FAFA86 !important;
+}
+
+.botonverde{
+    --background:#29D670 !important;
+    color: #FFFFFF !important;   
+}
+
+.verde{
+    color: #29D670 !important;    
+}
+.rosa{
+    color: #D6298F !important;    
+}
+
+
+.blanco{
+    color:white !important;    
+}
+
+.pato{
+    object-fit: cover;
+  width:330px;
+  height:330px;
+}
+
+.pato2{
+  width:50px;
+  height:50px;
+  
+}
+.centrado{
+    text-align: center;
+    
+  }
+  .verde2{
+    color: #4C9900 !important;    
+}
